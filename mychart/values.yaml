@@ -5,10 +5,10 @@
 replicaCount: 3
 
 image:
-  repository: sergeytemkin/
+  repository: sergeytemkin/2402-myimage
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "alpine"
+  tag: ""
 
 # imagePullSecrets: []
 # nameOverride: ""
